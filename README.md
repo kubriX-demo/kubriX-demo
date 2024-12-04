@@ -12,6 +12,8 @@ Eager to see kubriX in action? Have a look at our [kubriX playground with Github
 
 Want to install kubriX on your local machine? Follow [local installation guide](kubrix-local-installation.md)!
 
+test
+
 
 
 
