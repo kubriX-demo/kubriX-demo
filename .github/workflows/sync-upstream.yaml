@@ -25,5 +25,4 @@ jobs:
           git switch -c from-upstream upstream/main
           git push --set-upstream origin from-upstream
           # create a PR unless there is already an existing PR from branch 'from-upstream'
-          gh pr view from-upstream --repo kubriX-demo/kubriX-demo --json state --jq '.state' | grep OPEN || gh pr create --base main --head from-upstream --repo kubriX-demo/kubriX-demo --title "Updates from upstream" --body ""
-          
+          gh pr view from-upstream --repo ${GITHUB_REPOSITORY} --json state --jq '.state' | grep OPEN || gh pr create --base main --head from-upstream --repo ${GITHUB_REPOSITORY} --title "Updates from upstream" --body ""
