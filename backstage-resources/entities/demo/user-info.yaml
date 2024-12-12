@@ -20,7 +20,7 @@ spec:
   profile:
     displayName: S-Kohlhepp
     email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    picture: https://avatars.githubusercontent.com/u/161716665?v=4
   memberOf: [sx-cnp-oss]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -31,7 +31,7 @@ spec:
   profile:
     displayName: dqu4nd
     email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    picture: https://avatars.githubusercontent.com/u/175125049?v=4
   memberOf: [sx-cnp-oss]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -42,7 +42,7 @@ spec:
   profile:
     displayName: Voigtus
     email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    picture: https://avatars.githubusercontent.com/u/21288767?v=4
   memberOf: [sx-cnp-oss]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -53,7 +53,7 @@ spec:
   profile:
     displayName: V161915
     email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    picture: https://avatars.githubusercontent.com/u/162464624?v=4
   memberOf: [sx-cnp-oss]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -64,7 +64,7 @@ spec:
   profile:
     displayName: wthyen
     email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    picture: https://avatars.githubusercontent.com/u/25084096?v=4
   memberOf: [sx-cnp-oss]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -75,7 +75,7 @@ spec:
   profile:
     displayName: jankeigen
     email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    picture: https://avatars.githubusercontent.com/u/21035840?v=4
   memberOf: [sx-cnp-oss]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -86,7 +86,7 @@ spec:
   profile:
     displayName: TomSchmitz
     email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    picture: https://avatars.githubusercontent.com/u/17268360?v=4
   memberOf: [sx-cnp-oss]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -97,6 +97,6 @@ spec:
   profile:
     displayName: BWagenerGenerali
     email: guest@example.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Midnight&backgroundColor=transparent
+    picture: https://avatars.githubusercontent.com/u/69955643?v=4
   memberOf: [sx-cnp-oss]
 ---
