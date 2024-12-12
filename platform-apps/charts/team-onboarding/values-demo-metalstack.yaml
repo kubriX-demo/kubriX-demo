@@ -17,18 +17,3 @@ teams:
     multiStageKargoAppSet:
       organization: kubriX-demo
 
-# new team stanza for team sx-cnp-oss
-  - name: sx-cnp-oss
-    sourceRepos:
-      - '*'
-    clusterResourceWhitelist:
-      - group: ""
-        kind: Namespace
-      - group: kargo.akuity.io
-        kind: Project
-    appOfAppsRepo:
-      repoURL: https://github.com/kubriX-demo/sx-cnp-oss-apps
-      path: demo-apps
-      revision: main
-    multiStageKargoAppSet:
-      organization: kubriX-demo
