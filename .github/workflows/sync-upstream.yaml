@@ -25,7 +25,7 @@ jobs:
           UPSTREAM_TOKEN: ${{ secrets.UPSTREAM_TOKEN }}
           UPSTREAM_REPO: ${{ vars.UPSTREAM_REPO }}
         run: |
-          git remote add upstream https://github.com/${UPSTREAM_REPO}.git
+          git remote add upstream https://${UPSTREAM_TOKEN}@github.com/${UPSTREAM_REPO}.git
           git fetch upstream
           git switch -c from-upstream upstream/main
           
