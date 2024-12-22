@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v4
         # we need all commits to evaluate diff between upstream and downstream project
         with:
+          token: ${{ secrets.SYNC_TOKEN }}
           fetch-depth: 0
 
       - name: fetch upstream commits
