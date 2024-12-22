@@ -31,6 +31,7 @@ jobs:
         shell: bash
         env:
           SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
           git remote set-url origin https://${SYNC_TOKEN}@github.com/${GITHUB_REPOSITORY}
           git push --set-upstream origin from-upstream
