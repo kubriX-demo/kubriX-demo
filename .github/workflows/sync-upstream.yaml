@@ -17,6 +17,7 @@ jobs:
         # we need all commits to evaluate diff between upstream and downstream project
         with:
           fetch-depth: 0
+          token: ${{ secrets.SYNC_TOKEN }}
 
       - name: fetch upstream commits
         shell: bash
