@@ -1,9 +1,28 @@
 {
+  "configMigration": true,
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
   ],
   "crossplane": {
-    "fileMatch": [".+provider\\.yaml$"]
-  }
+    "fileMatch": [
+      ".+provider\\.yaml$"
+    ]
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "major": {
+        "semanticCommitType": "feat(deps)!"
+      },
+      "minor": {
+        "semanticCommitType": "feat(deps)"
+      },
+      "patch": {
+        "semanticCommitType": "fix(deps)"
+      }
+    }
+  ]
 }
