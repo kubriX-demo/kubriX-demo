@@ -11,17 +11,19 @@
   },
   "packageRules": [
     {
-      "matchDepTypes": [
-        "dependencies"
+      "matchDatasources": [
+        "helm",
+        "docker"
       ],
       "major": {
-        "semanticCommitType": "feat(deps)!"
+        "semanticCommitType": "feat",
+        "commitBody": "BREAKING CHANGE: new upstream major version"
       },
       "minor": {
-        "semanticCommitType": "feat(deps)"
+        "semanticCommitType": "feat"
       },
       "patch": {
-        "semanticCommitType": "fix(deps)"
+        "semanticCommitType": "fix"
       }
     }
   ]
