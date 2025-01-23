@@ -30,7 +30,12 @@ argo-cd:
               end
             end
             return hs
-
+            
+      resource.customizations.ignoreDifferences.postgresql.cnpg.io_Cluster: |
+        jqPathExpressions:
+          - '.spec.postgresql.pg_hba'
+          - '.spec.postgresql.pg_ident'
+          
     rbac:
       policy.csv: |
         p, backstage, applications, get, */*, allow

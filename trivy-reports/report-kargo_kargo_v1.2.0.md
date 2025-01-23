@@ -2,10 +2,7 @@
 <h3>Target <code>ghcr.io/akuity/kargo:v1.2.0 (wolfi 20230201)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
-<h3>Target <code>usr/local/bin/credential-helper</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>usr/local/bin/grpc_health_probe</code></h3>
+<h3>Target <code>app/cmd/webhook/webhook</code></h3>
 <h4>Vulnerabilities (2)</h4>
 <table>
     <tr>
@@ -19,7 +16,7 @@
         <td><code>golang.org/x/crypto</code></td>
         <td>CVE-2024-45337</td>
         <td>CRITICAL</td>
-        <td>v0.26.0</td>
+        <td>v0.27.0</td>
         <td>0.31.0</td>
     </tr>
     <tr>
